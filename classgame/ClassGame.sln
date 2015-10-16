@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TNKGEngine", "TNKGEngine\TNKGEngine.vcxproj", "{E1BA5F94-8511-4508-BB34-E75F170FE1AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShootingGame", "ShootingGame\ShootingGame.vcxproj", "{B499C37A-E609-45C2-87F7-91A7D21FB2CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1BA5F94-8511-4508-BB34-E75F170FE1AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1BA5F94-8511-4508-BB34-E75F170FE1AF}.Debug|Win32.Build.0 = Debug|Win32
+		{E1BA5F94-8511-4508-BB34-E75F170FE1AF}.Release|Win32.ActiveCfg = Release|Win32
+		{E1BA5F94-8511-4508-BB34-E75F170FE1AF}.Release|Win32.Build.0 = Release|Win32
+		{B499C37A-E609-45C2-87F7-91A7D21FB2CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B499C37A-E609-45C2-87F7-91A7D21FB2CC}.Debug|Win32.Build.0 = Debug|Win32
+		{B499C37A-E609-45C2-87F7-91A7D21FB2CC}.Release|Win32.ActiveCfg = Release|Win32
+		{B499C37A-E609-45C2-87F7-91A7D21FB2CC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

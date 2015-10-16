@@ -1,0 +1,59 @@
+﻿2015/10/16 15:44:57 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\human34\Desktop\bace2\DirectXBase\DirectXBase.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IDX9\Include /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /I"C:\Program Files\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EditScene.cpp MyDirectLib\dxfont.cpp MyDirectLib\dxsprite.cpp MyDirectLib\dxtexture.cpp MyDirectLib\MyLib.cpp
+         MyLib.cpp
+         dxtexture.cpp
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.h(4): error C2079: 'CTexture' が 未定義の class 'DECLSPEC' で使用しています。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.h(4): error C2143: 構文エラー : ';' が ':' の前にありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.h(4): error C2059: 構文エラー : ':'
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.h(4): error C2059: 構文エラー : 'public'
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.h(5): error C2143: 構文エラー : ';' が '{' の前にありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.h(5): error C2447: '{' : 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(3): error C2825: 'CTexture': '::' が後に続くときは、クラスまたは名前空間でなければなりません
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(3): error C2143: 構文エラー : ';' が 'CTexture' の前にありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(3): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(3): error C2086: 'int CTexture' : 再定義されました。
+                 c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.h(4) : 'CTexture' の宣言を確認してください。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(4): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(4): error C2063: 'CTexture' : 関数ではありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(4): error C3755: 'CTexture': デリゲートを定義することはできません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(8): error C2825: 'CTexture': '::' が後に続くときは、クラスまたは名前空間でなければなりません
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(8): error C2143: 構文エラー : ';' が 'CTexture' の前にありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(8): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(8): error C2086: 'int CTexture' : 再定義されました。
+                 c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.h(4) : 'CTexture' の宣言を確認してください。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(9): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(9): error C2063: 'CTexture' : 関数ではありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(9): error C3755: 'CTexture': デリゲートを定義することはできません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(14): warning C4091: '' : 変数が何も宣言されていないときは、'int' の左辺を無視します。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(14): error C2143: 構文エラー : ';' が '::' の前にありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(14): error C2059: 構文エラー : '::'
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(15): error C2143: 構文エラー : ';' が '{' の前にありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(15): error C2447: '{' : 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(19): error C2825: 'CTexture': '::' が後に続くときは、クラスまたは名前空間でなければなりません
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(19): error C2143: 構文エラー : ';' が '::' の前にありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(19): error C2182: 'CTexture' : 'void' 型が不適切に使用されています。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(19): error C2086: 'int CTexture' : 再定義されました。
+                 c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.h(4) : 'CTexture' の宣言を確認してください。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(20): error C2143: 構文エラー : ';' が '{' の前にありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(20): error C2447: '{' : 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(25): error C2825: 'CTexture': '::' が後に続くときは、クラスまたは名前空間でなければなりません
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(25): error C2143: 構文エラー : ';' が '::' の前にありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(25): error C2086: 'int CTexture' : 再定義されました。
+                 c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.h(4) : 'CTexture' の宣言を確認してください。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(26): error C2143: 構文エラー : ';' が '{' の前にありません。
+     1>c:\users\human34\desktop\bace2\directxbase\mydirectlib\dxtexture.cpp(26): error C2447: '{' : 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+         dxsprite.cpp
+         dxfont.cpp
+         EditScene.cpp
+     1>c:\users\human34\desktop\bace2\directxbase\editscene.cpp(6): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\human34\desktop\bace2\directxbase\editscene.cpp(7): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\human34\desktop\bace2\directxbase\editscene.cpp(71): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
+         コードを生成中...
+     1>プロジェクト "C:\Users\human34\Desktop\bace2\DirectXBase\DirectXBase.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:03.97

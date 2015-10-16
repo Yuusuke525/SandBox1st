@@ -1,0 +1,23 @@
+﻿2015/10/16 17:40:38 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\Documents\human\チーム製作2\DirectXBase\DirectXBase\DirectXBase.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IDX9\Include /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /I"C:\Program Files\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EditScene.cpp EditSceneUse.cpp
+         EditSceneUse.cpp
+     1>g:\documents\human\チーム製作2\directxbase\directxbase\editscene.h(7): error C2011: 'WeponData' : 'struct' 型の再定義
+                 g:\documents\human\チーム製作2\directxbase\directxbase\editscene.h(7) : 'WeponData' の宣言を確認してください。
+     1>g:\documents\human\チーム製作2\directxbase\directxbase\editscene.h(17): error C2011: 'C_EDIT' : 'class' 型の再定義
+                 g:\documents\human\チーム製作2\directxbase\directxbase\editscene.h(17) : 'C_EDIT' の宣言を確認してください。
+     1>g:\documents\human\チーム製作2\directxbase\directxbase\editsceneuse.cpp(4): error C2027: 認識できない型 'C_EDIT' が使われています。
+                 g:\documents\human\チーム製作2\directxbase\directxbase\editscene.h(17) : 'C_EDIT' の宣言を確認してください。
+     1>g:\documents\human\チーム製作2\directxbase\directxbase\editsceneuse.cpp(4): fatal error C1903: 直前のエラーを修復できません。コンパイルを中止します。
+         EditScene.cpp
+     1>g:\documents\human\チーム製作2\directxbase\directxbase\editscene.cpp(6): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\documents\human\チーム製作2\directxbase\directxbase\editscene.cpp(7): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>g:\documents\human\チーム製作2\directxbase\directxbase\editscene.cpp(71): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
+         コードを生成中...
+     1>プロジェクト "G:\Documents\human\チーム製作2\DirectXBase\DirectXBase\DirectXBase.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:08.38

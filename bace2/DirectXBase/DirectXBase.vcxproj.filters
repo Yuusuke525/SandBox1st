@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DirctSound">
+      <UniqueIdentifier>{3e2164dc-9ef8-499a-91a3-60403c6af953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectInput">
+      <UniqueIdentifier>{7b4d358b-616f-4c2f-97c1-4bc1ec01fa17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{e200cccc-e500-498e-9f18-79f380dbd856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyDirectLib">
+      <UniqueIdentifier>{e4790fe5-1838-4eb4-80a1-9c9db20ab2ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectSound\directSound.cpp">
+      <Filter>DirctSound</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectSound\soundbuffer.cpp">
+      <Filter>DirctSound</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectSound\wave.cpp">
+      <Filter>DirctSound</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput\directInput.cpp">
+      <Filter>DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="EditScene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="MyDirectLib\MyLib.cpp">
+      <Filter>MyDirectLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDirectLib\dxfont.cpp">
+      <Filter>MyDirectLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDirectLib\dxsprite.cpp">
+      <Filter>MyDirectLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDirectLib\dxtexture.cpp">
+      <Filter>MyDirectLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectSound\directSound.h">
+      <Filter>DirctSound</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectSound\soundbuffer.h">
+      <Filter>DirctSound</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectSound\wave.h">
+      <Filter>DirctSound</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput\directInput.h">
+      <Filter>DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="other\MyVector.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="EditScene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="MyDirectLib\MyLib.h">
+      <Filter>MyDirectLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDirectLib\dxfont.h">
+      <Filter>MyDirectLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDirectLib\dxsprite.h">
+      <Filter>MyDirectLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDirectLib\dxtexture.h">
+      <Filter>MyDirectLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
